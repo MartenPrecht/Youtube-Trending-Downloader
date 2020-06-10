@@ -10,8 +10,14 @@ I have already gathered a couple of month worth of data using this tool and I am
 
 ## Downloader
 
-The video-id downloader is provided in the download_trending.py file.
+### download trending video IDs
+The video-id downloader is provided in the **`download_trending.py`** file.
 The target download folder and countries are stored in the config.json file.
 If the file is run it will download the trending video-ids every hour until it is stopped.
 It is recommended to run this file in a tmux shell when run for extended periods of time.
 
+### download video information
+This part of the code allows the download of video information (Thumbnail, title, tags, description).
+It is implemented in the util.py file and can be easily started using the **`download_video_data.ipynb`** notebook.
+This notebook also starts the download of videos from your own youtube subscriptions.
+This part is not yet included because it requires the YouTube-API to find the videos for each channel.

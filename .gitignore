@@ -1,0 +1,5 @@
+.idea/*
+.ipynb_checkpoints/*
+
+subs.json
+subscription_manager
